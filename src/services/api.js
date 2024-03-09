@@ -1,6 +1,7 @@
 globalThis.users = 'userLegchs';
 globalThis.posts = 'postLegchs';
 
+
 export const getUserById = async (id) => {
     try {
         const data = await fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/${globalThis.users}/${id}`);
