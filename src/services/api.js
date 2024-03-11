@@ -1,6 +1,6 @@
 globalThis.users = 'userLegchs';
 globalThis.posts = 'postLegchs';
-
+globalThis.chat = 'LegchChat';
 
 export const getUserById = async (id) => {
     try {
